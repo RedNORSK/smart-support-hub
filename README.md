@@ -2,6 +2,10 @@
 
 Учебная веб-платформа внедрения, эксплуатации и сопровождения программного продукта.
 
+Сайт: https://rednorsk.github.io/smart-support-hub/
+
+Репозиторий: https://github.com/RedNORSK/smart-support-hub
+
 ## Запуск
 
 Откройте папку в VS Code и запустите Live Server либо выполните:
@@ -34,7 +38,7 @@ SLA: critical 4 ч, high 8 ч, medium 24 ч, low 72 ч. Процент SLA сч�
 Создайте публичный репозиторий `smart-support-hub`, отправьте ветку `main` и теги. В Settings → Pages выберите Deploy from a branch → main → /(root). Исходные HTML должны находиться в корне репозитория. Файл .nojekyll уже включён.
 
 ```sh
-git remote add origin https://github.com/YOUR_LOGIN/smart-support-hub.git
+git remote add origin https://github.com/RedNORSK/smart-support-hub.git
 git push -u origin main
 git push origin --tags
 ```
